@@ -19,3 +19,4 @@ mono_crash.*.json
 *.sublime-workspace
 .vscode
 *IGNOREME*
+*.import
