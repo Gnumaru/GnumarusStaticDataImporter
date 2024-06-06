@@ -1,0 +1,27 @@
+{
+	"priority":1.01
+	,"use_custom_json_data_inspector":true
+	,"auto_install_dependencies":false
+	,"default_import_options":{
+		"preset_index":0
+		,"import_method":1
+		,"perform_str_to_var_on_srings":true
+		,"interpret_tabular_data_as_database":true
+		,"multiple_tables_per_sheet":0
+		,"debug_keep_temporary_files":false
+		,"debug_print_parsed_value_before_saving":false
+		,"debug_copy_saved_resource_alongside_temp_file":false
+	}
+	,"override_import_options":{
+	}
+	,"extensions":[
+		"yaml"
+		,"toml"
+		,"hjson"
+		,"xml"
+		,"tsv"
+		,"xlsx"
+		,"ods"
+		,"sqlite3"
+	]
+}

@@ -1,0 +1,7 @@
+strval = "_平仮名😀嶲_"
+colorval = "Color(0,1,0,1)"
+v3val = "Vector3(1,2,3)"
+numval = 1.1
+boolval = true
+arrval = [ ]
+dictval = { }

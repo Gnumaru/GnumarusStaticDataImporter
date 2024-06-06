@@ -13,3 +13,9 @@ export_presets.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# Gnumaru's ignores
+*.sublime-project
+*.sublime-workspace
+.vscode
+*IGNOREME*

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf8'?>
+<MyRoot
+	strval="_平仮名😀嶲_"
+	colorval="Color(1,1,1,1)"
+	v3val="Vector3(1,2,3)"
+	numval="1.1"
+	boolval="true"
+	nullval="null">
+	first text
+	<achild/>
+	second text
+	<achild>
+	</achild>
+	third text
+</MyRoot>
