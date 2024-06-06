@@ -1,10 +1,34 @@
 # Gnumaru's Static Data Importer
 
-A Godot editor addon for importing data files like yaml, toml, xml, xlsx, ods, sqlite and others as static data
-
-### **TL;DR**: Automatically import object data files (yaml, json and the like) as nested dictionaries and tabular data files (tsv, xlsx and the like) as a structure mimicking a database.
+TL;DR: Import raw data from several file types (yaml, toml, hjson, xml, csv, xlsx, ods, odb, sqlite) in the same manner as a JSON resource but processing the strings with str_to_var.
 
 ### **WARNING**: This add-on has system prerequisites and does not work without them, read the "Prerequisites" section for further details.
+
+# Intro
+
+Hi🙂!
+
+Did you know that since godot 4.0 the JSON class is a Resource😲?
+
+Previously it was just a helper class, but since godot 4.0 you can do something like "var mydata = load('res://my.json').data" and just start using your parsed data😃!
+
+But that only works for json files😭.
+
+Oh, how GOOD and WONDERFULL and NEEDED and FANCY and LIFE CHANGING would it be if we could do that same thing with other files like yaml, toml, xml, csv, or an excell spreadsheet, or an sqlite database...
+
+But wait✋! Here I come to your aid😕. With this addon, you can do just that😍!
+
+With the one and only "Gnumaru's Static Data Importer" you can import a plethora of files as if they where just a plain old json resource🤩!
+
+You can write concise nested dictionary structures in yaml and load it😃!
+
+You can write well organized spreadsheets with lots of interdependent data and full of functions in microsoft excell (or any other software that saves as xlsx or ods like libreoffice, onlyoffice, wps office or google docs) and load it😃!
+
+You can write a well structured and coherent database in sqlite or odb (libreoffice base format) and load it😃!
+
+And all of this is done only in the editor, in the asset importing stage. That is, while exporting your game for production, you can just throw away the addon, the imported data is not dependant of the addon at all😍!
+
+Just use the addon and be happy😃! You can thank me later😉.
 
 # Installation
 
